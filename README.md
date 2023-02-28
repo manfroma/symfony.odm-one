@@ -8,7 +8,7 @@ Exploring with mongo odm package for home development in symfony.
     - one-one
     - many-many
     - inheritance 
-        - single document inheritance 
-        - per document inheritance 
+        - single collection
+        - collection per class
 * SIDU operations
 

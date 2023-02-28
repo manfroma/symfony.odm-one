@@ -8,6 +8,9 @@ use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 class Product{
 
     #[ODM\Id]
+    private $id; 
+
+    #[ODM\Field(type:"string")]
     private $name;
 
     #[ODM\Field(type:"string")]
@@ -24,11 +27,15 @@ class Product{
         return $this;
     }
 
-    public function getName(){
+    public function getId(): string{
+        return $this->id;
+    }
+
+    public function getName(): string{
         return $this->name; 
     }
 
-    public function getDescription(){
+    public function getDescription(): string{
         return $this->description; 
     }
 

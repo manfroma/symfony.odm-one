@@ -1,7 +1,7 @@
 <?php 
 namespace App\Mod\D;
 
-class Product extends \App\Mod\Base{
+class User extends \App\Mod\Base{
 
 
     
